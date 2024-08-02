@@ -1,0 +1,149 @@
+@import url('https://fonts.googleapis.com/css2?family=Fredoka:wght@400;700&display=swap');
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Arial', sans-serif;
+  background-color: white;
+}
+
+.landing-container {
+  width: 100%;
+  position: relative;
+  margin-top: 4.5rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color:#efe1e1; 
+}
+
+.text-content {
+  width: 80%;
+  text-align: left;
+  margin-top: 80px;
+  padding: 20px;
+  margin-right: 20%;
+  animation: fadeInUp 2s forwards;
+  
+}
+
+.text-content h1 {
+  font-size: 3em;
+  margin: 10px;
+  margin-left: 50%;
+  color: #333;
+  font-size: 40px;
+  animation: fadeInUp 2s forwards;
+}
+
+.text-content h2 {
+  
+  margin-left: 40%;
+  color: #6f61ff;
+  font-family: 'Fredoka', sans-serif;
+  font-size: 70px;
+
+}
+
+.text-content h2 span:first-child {
+  color: #ff6f61;
+  animation: fadeInUp 2s forwards;
+}
+
+.text-content h2 span:last-child {
+  color: #ff6f61;
+  animation: fadeInUp 2s forwards;
+}
+
+
+.start-button {
+  width: 50%;
+  margin-top: 30px;
+  margin-left: 40%;
+  padding: 15px 30px;
+  font-size: 1.2em;
+  color: #fff;
+  background-color: #ff6f61;
+  border: none;
+  border-radius: 30px;
+  cursor: pointer;
+}
+
+.start-button:hover {
+  background-color: #5946d2;
+}
+
+.thumbs-up-icon {
+  margin-bottom: 30px;
+  margin-left: 50rem;
+  font-size: 2em;
+  color: #6f61ff;
+  opacity: 0;
+  cursor: pointer;
+  animation: fadeInUp 3s forwards;
+
+}
+
+.homePageAnimation {
+  margin-right: 20%;
+
+}
+
+
+@keyframes fadeInUp {
+  0% {
+    opacity: 0;
+    transform: translateY(20px);
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.thumbs-up-icon:hover {
+   font-size: 3em;
+   transition: font-size 1s;
+   color: #ff6f61;
+}
+
+
+@media (max-width: 768px) {
+  .landing-container {
+    margin-top: 2rem;
+    flex-direction: column;
+    background: none;
+    background-color: #efe1e1;
+  }
+
+  .text-content {
+    margin: 0;
+    text-align: center;
+    padding: 10px;
+    margin-right: 0;
+  }
+
+  .text-content h1 {
+    font-size: 2em;
+    margin-left: 0;
+    margin-top: 10px;
+  }
+
+  .text-content h2 {
+    font-size: 1.5em;
+  }
+
+  .start-button {
+    margin-top: 10px;
+    margin-left: 0;
+    padding: 10px 20px;
+    font-size: 1em;
+  }
+
+  .thumbs-up-icon {
+    font-size: 1.5em;
+    margin-left: 0;
+  }
+}
+

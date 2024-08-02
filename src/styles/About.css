@@ -1,0 +1,112 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Fredoka:wght@400;700&display=swap');
+*{
+  margin: 0;
+  padding: 0;
+
+ 
+}
+
+.about-container {
+  padding: 50px;
+  background-color: white;
+  height: 361vh;
+  width: auto;
+  border: 2px solid red;
+  background-color: white;
+}
+
+.about-header {
+  height: 20vh;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: 2px solid black;
+  background-image: url(C:\Users\asus\OneDrive\Desktop\project_codru\client\src\assets\AboutUsHeader.png);
+  font-family: 'Fredoka', sans-serif;
+  color:  #4e1a28;
+  font-size: 50px;
+}
+
+.about-header1 {
+  height: 300vh ;
+  margin-top: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: top; 
+
+  /* border: 2px solid red; */
+
+
+ 
+
+}
+.aboutdiv1 {
+  background-color: #4e1a28;
+  height: 17vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: top;
+  /* border: 2px solid black; */
+  height: 35%;
+  width: 90%;
+}
+
+.aboutUsText h1 {
+  font-family: 'Fredoka', sans-serif;
+  font-size: 50px;
+}
+
+.whoWePara {
+margin-top: 20px;
+}
+
+.ourInspiration {
+  display: flex;
+  height: 60vh;
+  width: 90%;
+  margin-top: 150px;
+  /* border: 2px solid black; */
+}
+
+.aboutUsLeft{
+   height: 100%;
+   width: 50%;
+   background-color: #efe1e1;
+   /* border: 2px solid red; */
+}
+
+.aboutUsLeft h1 {
+  font-family: 'Fredoka', sans-serif;
+  font-size: 35px;
+  margin-left: 35px;
+
+}
+
+.aboutUsLeft h2 {
+  font-size: 20px;
+  margin-left: 35px;
+  margin-top: 20px;
+}
+.aboutUsLeft p {
+  font-size: 15px;
+  margin-left: 35px;
+  margin-top: 20px;
+}
+
+.aboutUsRight {
+  height: 100%;
+  width: 50%;
+  background-image: url(C:\Users\asus\OneDrive\Desktop\project_codru\client\src\assets\founder.png);
+  border-radius: 50%;
+  /* box-sizing: content-box; */
+}
+
+.ourGoal {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}

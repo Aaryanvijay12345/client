@@ -1,0 +1,69 @@
+.Start2 {
+  /* border: 2px solid green; */
+  width: 100%;
+  height: 90vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+}
+.Start2div1 {
+  /* border: 2px solid red; */
+  /* min-height: 30%; */
+  width: 70%;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  /* align-items: center; */
+}
+.Start2div1 > h2 {
+  /* border: 2px solid green; */
+  font-size: 3.5vw;
+  width: 100%;
+}
+.Start2div1 > p {
+  /* border: 2px solid green; */
+  max-width: 100%;
+
+  text-align: center;
+  margin-left: 40%;
+  font-size: 1.5rem;
+}
+.Start2div2 {
+  /* border: 2px solid red; */
+  height: 65%;
+  width: 70%;
+  border-radius: 2vw;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  background-color: white;
+}
+.Start2div2 > div {
+  border: 1px solid black;
+  background-color: white;
+  width: 25%;
+  height: 70%;
+  border-radius: 2vw;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-color: #efe1e1;
+  margin-bottom: 2vh;
+}
+.Start2div2 > div > img {
+  width: 70%;
+  height: 65%;
+  border: 1px solid black;
+  border-radius: 1vw;
+}
+
+.Start2div2 > div > p {
+  /* border: 2px solid rgb(43, 158, 43); */
+  height: 10%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+}

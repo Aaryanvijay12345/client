@@ -1,0 +1,277 @@
+@import url('https://fonts.googleapis.com/css2?family=Fredoka:wght@400;700&display=swap');
+ 
+  
+  .courses-maindiv {
+    width: 100vw;
+    background-color: #efe1e1;
+    /* border: 2px solid green; */
+    margin-top: 10vh;
+    
+  }
+.demoCourses {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+
+  width: 100vw;
+  height: 70vh;
+  /* border: 2px solid red; */
+}
+
+ .doubtSectionCourses{
+  /* border: 2px solid red; */
+  height: 50vh;
+  width: 40vw;
+  border-radius: 10%;
+  margin-top: 65px;
+  margin-left: 80px;
+  background-color: #272330;
+ }
+
+ .freeDemoCourses{
+  height: 50vh;
+  width: 40vw;
+  border-radius: 10%;
+  margin-top: 65px;
+  margin-left: 80px;
+  background-color: #272330;
+ }
+
+ .freeDemoCourses h3{
+   font-size: 12px;
+   color:white;
+   margin-left:50px;
+   margin-top: -130px;
+   
+ }
+
+ .doubtSectionCourses h3{
+  font-size: 12px;
+  color:white;
+  margin-left: 350px;
+  margin-top: -120px;
+  
+}
+
+ .demoEnroll{
+  width: 10vw;
+  height: 5vh;
+  margin-left: 60px;
+  margin-top: 20px;
+  background-color: #fe007a;
+  border-radius: 5%;
+ }
+
+ .demoEnroll:hover {
+  background-color: black;
+ }
+
+ .doubtEnroll{
+  width: 10vw;
+  height: 5vh;
+  margin-left: 370px;
+  margin-top: 20px;
+  background-color: #fe007a;
+  border-radius: 5%;
+ }
+
+ 
+
+  /* .mainCourses {
+    position: relative;
+    top: 50%;
+    left: 50%;
+    height: 1px;
+    width: 1px;
+ 
+    
+} */
+
+  
+  .courses-maindiv img {
+    width: 20%;
+    height: 30%;
+    margin-top: 20px;
+  }
+  
+  @font-face {
+    font-family: 'MtBold';
+    src: url('assets/fonts/Arial Rounded Mt Bold.ttf') format('ttf'),
+        
+  }
+  
+  
+  .text1 {
+   font-size: 50px;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   margin-top: 6%;
+   gap: 1%;
+   font-family: 'MtBold' sans-serif;
+   
+  }
+  
+  
+  .white-text {
+    color:  black;
+  }
+  
+  .red-text {
+    color:  #D61e3f;
+    gap: 20px;
+  }
+  
+  .text {
+      color:  black;
+  }
+  
+  .images {
+    margin-top: 5%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .text2 {
+    font-size: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 6%;
+    gap: 1%;
+    font-family: 'MtBold' sans-serif;
+    
+   }
+  
+  .white-text1 {
+    color:  black;
+  }
+  
+  .red-text1 {
+    color: #D61e3f;
+    gap: 20px;
+  }
+  
+  .imagesCourses {
+    width: 100%;
+   
+    margin-top: 5%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 10px;
+    gap: 50px; 
+  }
+  
+  .imagesCourses img {
+    width: 400px; 
+    height: 400px; 
+  }
+  
+  .zoomable {
+    transition: transform 0.3s ease-in-out;
+  }
+  
+  .zoomable:hover {
+    transform: scale(1.3);
+  }
+
+  .animationCourses {
+    height: 70vh;
+    width: 100%;
+    margin-top: 100px;
+    background-color: transparent;
+  }
+
+  /* .div1 {
+    width: 225px; height: 400px;
+    background-image: url(https://estelle.github.io/10/files/sprite.png);
+    animation: gangham 5s steps(23,start) infinite,
+      movearound 12s steps(69,end) infinite alternate 44ms;
+    animation-direction: normal, alternate;
+  }
+  @keyframes gangham {
+    0% {background-position: 0 0}
+    100% {background-position: -5175px 0}
+  }
+  @keyframes movearound {
+    0% {transform: translatex(0)}
+    100% {transform: translatex(600px);}
+  } */
+
+  .div2{
+    height: 70vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* margin-top: 100px; */
+    font-size: 70px;
+    color: black;
+    font-family: 'Fredoka', sans-serif;
+    /* border: 2px solid red; */
+  }
+
+  @media (max-width: 768px) {
+    .courses-maindiv img {
+      width: 50%;
+      height: auto;
+    }
+  
+    .text1, .text2 {
+      font-size: 24px; /* Decrease font size for mobile */
+      margin-top: 20px;
+      text-align: center;
+      gap: 0.5%;
+    }
+  
+    .imagesCourses {
+      flex-direction: column; /* Stack images vertically */
+      gap: 20px; /* Reduce gap between images */
+      margin-left: 0;
+    }
+  
+    .imagesCourses img {
+      width: 90%; /* Make images responsive */
+      height: auto;
+    }
+  
+    .zoomable:hover {
+      transform: scale(1.1); /* Adjust zoom for smaller screens */
+    }
+  
+    .animationCourses {
+      height: auto;
+      margin-top: 50px;
+    }
+  
+    .div1 {
+      width: 100px;
+      height: 200px;
+      background-size: cover; /* Adjust background size for smaller div */
+    }
+
+
+    .images {
+      flex-direction: column;
+      gap: 15px;
+    }
+  }
+
+  
+
+  
+  
+  
+  
+  
+  
+  
+   
+  
+  
+  
+  
+  
+  
+  
